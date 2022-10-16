@@ -12,10 +12,9 @@ using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 
 
 
-
+Console.WriteLine("These lines needs to be commented out once the databsed has been filled with the default data");
 // fill prepared data into tables only at first run
 TaskDB.FillDBdata();
-
 //break for when making migrations or FillDBdata
 Console.WriteLine("<DEBUG> break");
 Console.ReadLine();
