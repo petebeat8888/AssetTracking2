@@ -10,4 +10,8 @@ MyDbContext.cs needs a correct connectionstring.
 After first run some lines in Program.cs needs to be commented
 (they create the default products for the database and adds a input break)
 
+This project uses some packages and dpendencies
+check Using in the files
+
+
 
